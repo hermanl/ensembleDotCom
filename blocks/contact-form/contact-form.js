@@ -18,7 +18,7 @@ function submitForm() {
   if (!validateEmail()) return;
 
   // change link to your email-form URL
-  fetch('https://main--ensembledotcomafter--ensemblesc.hlx.page/email-form', {
+  fetch('https://main--ensembledotcom--hermanl.aem.page/email-form', {
     method: "POST",
     body: JSON.stringify({
       data: {

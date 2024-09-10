@@ -17,7 +17,7 @@ function validateEmail() {
   
     if (!validateEmail()) return;
     
-    fetch('https://main--ensembledotcomafter--ensemblesc.hlx.page/email-form', {
+    fetch('https://main--ensembledotcom--hermanl.aem.page/email-form', {
       method: "POST",
       body: JSON.stringify({
         email,

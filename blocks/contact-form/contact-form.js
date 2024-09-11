@@ -34,6 +34,9 @@ function validateEmail() {
 
     fetch('/email-form', {
       method: "POST",
+      headers: {
+        'Content-Type': 'application/json',
+      },
       body,
     }).then((response) => {
       console.log(response);

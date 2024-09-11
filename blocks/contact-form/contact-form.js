@@ -31,7 +31,7 @@ function validateEmail() {
   
     console.log(body);
   
-    // change link to your email-form URL
+
     fetch('/email-form', {
       method: "POST",
       body,

@@ -32,7 +32,7 @@ function validateEmail() {
     console.log(body);
   
     // change link to your email-form URL
-    fetch('https://main--ensembledotcom--hermanl.hlx.page/email-form', {
+    fetch('/email-form', {
       method: "POST",
       body,
     }).then((response) => {

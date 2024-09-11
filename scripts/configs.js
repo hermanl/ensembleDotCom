@@ -8,7 +8,7 @@
 export const calcEnvironment = () => {
     const { href } = window.location;
     let environment = 'prod';
-    if (href.includes('.hlx.page')) {
+if (href.includes('.hlx.page') || href.includes('aem.page')) {
       environment = 'stage';
     }
     if (href.includes('localhost')) {
